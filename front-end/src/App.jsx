@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Cart from './pages/Cart/Cart';
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder';
 import Footer from './component/Footer/Footer';
+import AppDownload from './component/AppDownload/AppDownload';
 function App() {
   return (
     <>
@@ -16,7 +17,7 @@ function App() {
         <Route path ='/order' element={<PlaceOrder/>}/>
       </Routes>
     </div>
-    
+    <AppDownload/>
     <Footer/>
     </>
     
